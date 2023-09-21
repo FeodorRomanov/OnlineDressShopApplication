@@ -8,6 +8,8 @@ namespace OnlineDressShopApplication
     {
         public static void Main(string[] args)
         {
+            //Console.WriteLine();
+
             WebApplicationBuilder builder = WebApplication.CreateBuilder(args);
 
             string connectionString = builder.Configuration.GetConnectionString("DefaultConnection") ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
