@@ -16,6 +16,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\DressShop.Data.Models\DressShop.Data.Models.csproj" />
     <ProjectReference Include="..\OnlineDressShopApplication.Common\OnlineDressShopApplication.Common.csproj" />
   </ItemGroup>
 
